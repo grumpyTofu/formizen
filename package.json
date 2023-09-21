@@ -1,0 +1,21 @@
+{
+  "name": "formizen",
+  "version": "1.0.0",
+  "description": "pure vanilla.js form library for simple projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bun build src/index.ts --outdir ./dist",
+    "publish": "npm run build && npm publish --access public"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@happy-dom/global-registrator": "^12.1.2",
+    "bun-types": "^1.0.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "yup": "^1.2.0"
+  }
+}
